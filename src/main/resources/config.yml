@@ -1,0 +1,17 @@
+#切换世界设置
+ChangeWorldSettings:
+  #执行命令设置
+  RunCommandSettings:
+    #开关
+    Enable: true
+    #命令列表
+    CommandList:
+      - "我是一条命令哦"
+  #大标题提示设置
+  TitleMessageSettings:
+    #开关
+    Enable: true
+    #动态文本模式
+    DynamicTextMode: true
+    #动态文本时间(切换时间 单位:毫秒)
+    DynamicTextTime: 250

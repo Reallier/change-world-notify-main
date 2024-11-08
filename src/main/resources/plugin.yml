@@ -1,0 +1,11 @@
+name: change-world-notify
+version: '${version}'
+main: dev.misakacloud.plugin.cwn.ChangeWorldNotify
+api-version: '1.20'
+commands:
+  worldreload:
+    description: 重载配置
+    permission: changeworldnotify.op
+permissions:
+  changeworldnotify.op:
+    default: op
